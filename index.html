@@ -1,0 +1,376 @@
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>SNAPDEAL</title>
+        <title>Snapdeal web page</title>
+       <link rel="stylesheet" href="css.css">
+       <style>
+    
+          body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+         #id1,#id2,#id3,#id4 {
+           padding-left: 90px;
+           float: left;
+           
+         }
+         #hi1,#hi2,#hi3,#hi4{
+           background-color: black;
+           padding-left: 20px;
+           float: left;
+         }
+         
+         .footer {
+                   border: 2px solid black;
+                   padding: 5px;
+                   background-color:black;
+                   width: auto;
+                   height: 250px;
+                   color: white;
+                  }
+          #foot1,#foot2,#foot3,#foot4{
+            padding-left: 5px;
+            float: left;
+            color:white;
+
+          
+          }
+          .navbar{
+            width:100%;
+          }
+          .footer1
+          {
+            padding-left:0px;
+            float:left;
+          }        
+       </style>
+    </head>
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info nav justify-content-center">
+      <form class="d-flex">
+        <a class="navbar-brand" href="javascript:void(0)">SNAPDEAL</a>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit" ><a href="https://sujitha30web.github.io/bootform/"> LOGIN</a>
+           </button>
+            
+         <button class="btn btn-outline-primary" type="submit">
+           SIGNIN</button>
+      </form>    
+      </nav>
+
+
+
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            
+
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door-fill"></i>HOME</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapdeal.com/search?keyword=MOBILE&santizedKeyword=&catId=&categoryId=0&suggested=false&vertical=&noOfResults=20&searchState=&clickSrc=go_header&lastKeyword=&prodCatId=&changeBackToAll=false&foundInAll=false&categoryIdSearched=&cityPageUrl=&categoryUrl=&url=&utmContent=&dealDetail=&sort=rlvncy"><i class="bi bi-phone-fill"></i>MOBILE</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapdeal.com/search?keyword=LAPTOP&santizedKeyword=LAPTOP&catId=0&categoryId=0&suggested=false&vertical=p&noOfResults=20&searchState=&clickSrc=go_header&lastKeyword=&prodCatId=&changeBackToAll=false&foundInAll=false&categoryIdSearched=&cityPageUrl=&categoryUrl=&url=&utmContent=&dealDetail="><i class="bi bi-laptop-fill"></i>LAPTOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapdeal.com/products/women-ethnicwear?sort=plrty"><i class="bi bi-handbag-fill"></i>WOMEN'S FASHION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapdeal.com/products/men-apparel?sort=plrty"><i class="bi bi-person-fill"></i>MEN'S FASHION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapdeal.com/products/appliances-kitchen?sort=plrty"><i class="bi bi-basket-fill"></i>KITCHEN</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-three-dots"></i>MORE</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href=""><i class="bi bi-list-ul"></i>My Orders</a></li>
+                  <li><a class="dropdown-item" href=""><i class="bi bi-bookmark-heart-fill"></i>My Whishlist</a></li>
+                  <li><a class="dropdown-item" href=""><i class="bi bi-person-circle"></i>My Account</a></li>
+                  <li><a class="dropdown-item" href=""><i class="bi bi-bell-fill"></i>My Notification</a></li>
+                  <li><a class="dropdown-item" href=""><i class="bi bi-info-circle-fill"></i>Help Center</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <marquee class="e" direction="right" height="50" width="100%" scrollamount="20"><strong font-size="50px" >!!!Don't miss the offers!!!</strong></marquee>
+<fieldset style="background-color:whitesmoke;">
+        <br>
+<h2>MOBIES</h2>
+<br>
+<div class="gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrToeRJPtOIEzLmtLM4f4hT8ZSUUkhFka5eA&usqp=CAU" alt="MOBILE" style="width:300px;height:250px">
+  </a>
+  <div class="desc">
+      <pre>Samsung M12<br>cost:<del>25,000</del> 20,000<br>Offer:10%
+      </pre>
+  </div>
+</div>
+<div class="gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSW5O6Uw4TbTynLOthZqLyfPMBfvVpORxANw&usqp=CAU" alt="MOBILE" style="width:300px;height:250px">
+  </a>
+  <div class="desc">
+      <pre>Redmi note 7s<br>cost:<del>13,000</del>11,999<br>Offer:5%
+      </pre>
+  </div>
+</div>
+<div class="gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMiipRo7VyafJ1i4cryB1yKZ4F9dom4XaIGQ&usqp=CAU" alt="MOBILE" style="width:300px;height:250px">
+  </a>
+  <div class="desc">
+      <pre>Oppo A31<br>cost:<del>16,000</del>13,000<br>Offer:30%
+      </pre>
+  </div>
+</div>
+<div class="gallery">
+    <img src="https://m.media-amazon.com/images/I/41Gsj-Q-zOS.jpg" alt="MOBILE" style="width:300px;height:250px">
+  </a>
+  <div class="desc">
+      <pre>OnePlus Nord 2 5G<br>cost:<del>28,000</del>23,999<br>Offer:10%
+      </pre>
+  </div>
+</div>
+
+<br>
+</fieldset>
+
+
+
+
+<fieldset style="background-color:whitesmoke;">
+  <br>
+<h2>WOMEN'S FASHION</h2>
+<br>
+<div class="gallery">
+  <img src="https://rukminim1.flixcart.com/image/332/398/kjkbv680-0/sari/e/s/t/free-wedding-sarees-vaidehi-fashion-unstitched-original-imafz3zfpjpnrqrn.jpeg?q=50" alt="FASHION" style="width:300px;height:250px">
+</a>
+<div class="desc">
+    <pre>Saree --plain<br>cost:<del>1,000</del> 600<br>Offer:24%
+    </pre>
+</div>
+</div>
+<div class="gallery">
+  <img src="https://wearhutbd.com/wp-content/uploads/2018/04/Simple-gown-for-girls-long-kurti-design-for-girls-2021.jpg" alt="FASHION" style="width:300px;height:250px">
+</a>
+<div class="desc">
+    <pre>Long top(Umbrella)<br>cost:<del> 700</del>599<br>Offer:12%
+    </pre>
+</div>
+</div>
+<div class="gallery">
+  <img src="https://i1.wp.com/arabicmehndidesign.com/wp-content/uploads/2020/05/Sangeet-Wear-Designer-Colorful-Bridal-Saree-Designs-2020-For-Girls-18.jpg?ssl=1" alt="FASHION" style="width:300px;height:250px">
+</a>
+<div class="desc">
+    <pre>Saree<br>cost:<del>900</del> 799<br>Offer:14%
+    </pre>
+</div>
+</div>
+<div class="gallery">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXfex0TGmexMDNoq1e9UpXYEEiWlxJNlFzpFvFBKZXfAq5Ii6M9KU3IHjq5Sn5x0Es9AA&usqp=CAU" alt="FASHION" style="width:300px;height:250px">
+</a>
+<div class="desc">
+    <pre>Long brown long top<br>cost:<del>1200</del> 1100<br>Offer:4%
+    </pre>
+</div>
+</div>
+
+<br>
+</fieldset>
+
+
+
+
+<fieldset style="background-color:whitesmoke;">
+  <br>
+<h2>MEN'S FASHION</h2>
+<br>
+<div class="gallery">
+<img src="https://m.media-amazon.com/images/I/51Tebg3RbNL._UL1280_.jpg" alt="SHIRT" style="width:300px;height:250px">
+</a>
+<div class="desc">
+<pre>Dhosti<br>cost:<del>600</del> 500<br>Offer:10%
+</pre>
+</div>
+</div>
+<div class="gallery">
+<img src="data:image/jpeg;base64,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" alt="SHIRT" style="width:300px;height:250px">
+</a>
+<div class="desc">
+<pre>Plain shirt<br>cost:<del>700</del>659<br>Offer:3%
+</pre>
+</div>
+</div>
+<div class="gallery">
+<img src="https://my-live-01.slatic.net/p/0bd3bb9b85ff6864a72f098413bb4626.jpg" alt="SHIRT" style="width:300px;height:250px">
+</a>
+<div class="desc">
+<pre>Formal shirt<br>cost:<del>1450</del>1200<br>Offer:15%
+</pre>
+</div>
+</div>
+<div class="gallery">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_Gf-PyXh-lcDdbgpNP1wtvugSrNnCnpC7A&usqp=CAU" alt="SHIRT" style="width:300px;height:250px">
+</a>
+<div class="desc">
+<pre>Formal shirt<br>cost:<del>1599</del>1299<br>Offer:10%
+</pre>
+</div>
+</div>
+
+<br>
+</fieldset>
+
+
+<fieldset>
+  <div id="id1">
+  <a href="https://www.snapdeal.com/page/terms-of-sale"><img src="./snappay.jfif" style="width:200px;"></a></div>
+  <div id="id2">
+  <a href="https://www.snapdeal.com/page/terms-of-sale"><img src="./footpay2.png" style="width:200px;"></a>
+  </div>
+  <div id="id3">
+  <a href="https://www.snapdeal.com/page/terms-of-sale"><img src="./helpcenter.jfif" style="width:180px;"></a></div>
+  <div id="id4">
+  <a href="https://www.snapdeal.com/page/terms-of-sale"><img src="./footshop.jfif" style="width:180px;"></a></div>
+</fieldset>
+<fieldset style="background-color:black">
+    
+        <div class="footer">
+          <br>
+          <br>
+          <br>
+            
+            <div id="foot1">
+            <pre>
+              <b>POLICY INFO</b>
+
+              Privacy Policy
+              Terms of Sale
+              Terms of Use
+              Report Abuse & Takedown Policy
+              FAQ
+              FAQ
+          
+            </pre></div>
+           <div id="foot2">
+            <pre>
+              <b>COMPANY</b>
+
+              Impact@Snapdeal
+              Careers
+              Blog
+              Sitemap
+              Contact Us
+            </pre>
+          </div> 
+          <div id="foot3">
+            <pre>
+              <b>SNAPDEAL BUSINESS</b>
+
+              Shopping App
+              Sell on Snapdeal
+              Media Enquiries
+            </pre>
+          </div> 
+          <div id="foot4">
+            <pre>
+              <b>POPULAR LINKS</b>
+
+              Lehenga
+              Headphones
+              Kid's Clothing
+              Sarees
+              Shoes
+              Winter Wear
+              Shirt For Men
+            </pre>
+          </div> 
+          <br>
+          <br><br><br><br><br>
+          <br><br>
+          <hr class="mb-4">
+          <div class="row d-flex justify-content-center">
+            <div>
+              <center><p>
+                <a href="https://www.snapdeal.com/page/privacy-policy">Terms and Policy</a><br>
+                <a href="https://www.snapdeal.com/info/copyrightPolicy/">Copyright resetved@ snapdeal</a>
+
+              </p></center>
+            </div>
+          </div>
+          <div class="footer1">
+          <b>
+            
+            <div id="hi1">
+              <a href="https://www.facebook.com/Snapdeal"><img style="float: left;width:40px; height: 40px;" src="./fb1.jpg"></a></div>
+              <div id="hi2">
+              <a href="https://www.instagram.com/snapdeal/"><img style="float: left;width:40px; height: 40px;" src="./insta1.jpg"></a></div>
+              <div id="hi3">
+            
+              <a href="https://twitter.com/snapdeal"><img style="float: left;width:40px; height: 40px;" src="./twwiter2.png"></a></div>
+              <div id="hi4">
+              <a href="https://www.youtube.com/user/snapdeal"><img style="float: left;width:40px; height: 40px;" src="./footutube.jpg"></a></div>
+              <div id="hi4">
+                <a href="https://www.linkedin.com/checkpoint/challengesV2/AQET3h93eVg4jAAAAX90yeBVPwiJ6wtKMmRALSCu-9nOiHV27oyRqjij4oNiJh4ygeV4_ONwcpVB0iuEpRjt-Adf441SJky0IA?original_referer=https%3A%2F%2Fwww.snapdeal.com%2F"><img style="float: left;width:40px; height:40px;" src="./linkedin1.jpg"></a>
+              </div>
+        
+
+             
+    </body>
+</html>
